@@ -20,39 +20,39 @@ body{
 
 
 header{}
-header .container .logo{
+header .container nav .logo{
     float: left;
 }
-header .container .logo a{
+header .container nav .logo a{
     text-decoration: none;
 
 }
-header .container .logo a img{
+header .container nav .logo a img{
     width: 30px;
     margin: 50px 0 50px 255px;
 }
-header .container .logo a h1{
+header .container nav .logo a h1{
     position: relative;
     left: 6px;
 }
-header .container .logo a h1 strong{
+header .container nav .logo a h1 strong{
     position: absolute;
     top: 58px;
 }
-header .container .manu{
+header .container nav .manu{
     float: right;
 }
-header .container .manu ul{
+header .container nav .manu ul{
 
     display: block;
     position: relative;
     right: 210px;
 }
-header .container .manu ul li{
+header .container nav .manu ul li{
     float: left;
     margin-top: 60px;
 }
-header .container .manu ul li a{
+header .container nav .manu ul li a{
     text-decoration: none;
     color: var(--title-color);
     padding: 30px;
