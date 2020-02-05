@@ -1,0 +1,59 @@
+:root{
+    --background-color:#FFFFFF;
+    --font-text:'Calibri';
+    --title-color:#777777;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+body{
+    background-color: var(--background-color);
+    font-family:var(--font-text);
+}
+.container{
+    margin: auto;
+    width: 1400px;
+}
+
+
+
+
+header{}
+header .container .logo{
+    float: left;
+}
+header .container .logo a{
+    text-decoration: none;
+
+}
+header .container .logo a img{
+    width: 30px;
+    margin: 50px 0 50px 255px;
+}
+header .container .logo a h1{
+    position: relative;
+    left: 6px;
+}
+header .container .logo a h1 strong{
+    position: absolute;
+    top: 58px;
+}
+header .container .manu{
+    float: right;
+}
+header .container .manu ul{
+
+    display: block;
+    position: relative;
+    right: 210px;
+}
+header .container .manu ul li{
+    float: left;
+    margin-top: 60px;
+}
+header .container .manu ul li a{
+    text-decoration: none;
+    color: var(--title-color);
+    padding: 30px;
+}
